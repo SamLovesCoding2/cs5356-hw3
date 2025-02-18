@@ -178,3 +178,27 @@ details summary {
     pointer-events: none;
     z-index: 1000;
 }
+
+#stock-chart {
+    margin-top: 20px;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.chart-tooltip {
+    position: absolute;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+svg {
+    max-width: 100%;
+    height: auto;
+}
